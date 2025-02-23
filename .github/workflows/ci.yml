@@ -18,6 +18,10 @@ jobs:
               with:
                 python-version: 3.12
                 architecture: x64
+            
+            - name: Checkout repository
+              uses: actions/checkout@v3
+
 
             - name: Install dependencies
               run: |
